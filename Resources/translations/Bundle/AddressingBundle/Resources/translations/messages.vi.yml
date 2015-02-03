@@ -1,0 +1,36 @@
+sylius:
+    form:
+        address:
+            city: Thành phố
+            company: Công ty
+            country: Quốc gia
+            first_name: Tên
+            last_name: Họ
+            phone_number: Điện thoại
+            postcode: Mã bưu chính
+            street: Địa chỉ
+            province: Tỉnh
+        country:
+            iso_name: Tên ISO
+            name: Tên
+            provinces: Tỉnh
+            select: Chọn
+        province:
+            name: Tên
+            select: Chọn
+        zone:
+            members: Thành phần
+            name: Tên
+            type: Chọn
+            types:
+                country: Quốc gia
+                province: Tỉnh
+                zone: Vùng
+            scope: Phạm vi
+            select_scope: Chọn phạm vi
+        zone_member_country:
+            country: Quốc gia
+        zone_member_province:
+            province: Tỉnh
+        zone_member_zone:
+            zone: Vùng

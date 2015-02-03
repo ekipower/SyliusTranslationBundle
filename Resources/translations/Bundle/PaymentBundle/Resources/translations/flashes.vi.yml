@@ -1,0 +1,5 @@
+sylius:
+    payment:
+        complete: Thanh toán đã hoàn tất.
+        cancel: Thanh toán đã bị hủy.
+        transition_fail: Lỗi! Hành động vừa thực hiện không được ghi nhận vào quá trình thanh toán.

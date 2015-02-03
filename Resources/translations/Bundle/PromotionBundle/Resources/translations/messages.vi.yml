@@ -1,0 +1,50 @@
+sylius:
+    form:
+        action:
+            fixed_discount_configuration:
+                amount: Số tiền
+            percentage_discount_configuration:
+                percentage: Tỉ lệ %
+            shipping_discount_configuration:
+                percentage: Tỉ lệ %
+            type: Kiểu
+        rule:
+            taxonomy_configuration:
+                taxons: Phân loại
+                exclude: Loại trừ
+            item_count_configuration:
+                count: Số lần
+                equal: Ngang nhau
+            item_total_configuration:
+                amount: Số lần
+                equal: Ngang nhau
+            nth_order_configuration:
+                nth: Nth
+            user_loyalty_configuration:
+                time: Thời gian
+                unit:
+                    days: Ngày
+                    weeks: Tuần
+                    months: Tháng 
+                    years: Năm
+                    0: Đơn vị
+                after: Người dùng tạo ra sau
+            shipping_country_configuration:
+                country: Quốc gia
+            type: Kiểu
+        coupon:
+            code: Code
+            usage_limit: Hạn chế sử dụng
+        coupon_generate_instruction:
+            Amount: Số tiền
+            usage_limit: Hạn chế sử dụng
+        promotion:
+            actions: Hoạt động
+            coupon_based: Dựa trên phiếu giảm giá
+            exclusive: Độc quyền
+            description: Mô tả
+            ends_at: Kết thúc vào
+            name: Tên
+            rules: Thể lệ
+            starts_at: Bắt đầu từ
+            usage_limit: Hạn chế sử dụng

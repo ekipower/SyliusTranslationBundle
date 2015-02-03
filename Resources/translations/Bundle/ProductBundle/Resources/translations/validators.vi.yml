@@ -1,0 +1,21 @@
+sylius:
+    product:
+        sku:
+            not_blank: Vui lòng nhập mã sản phẩm.
+            unique: Mã sản phẩm phải là duy nhất.
+        name:
+            not_blank: Vui lòng nhập tên sản phẩm.
+            min_length: Tên sản phẩm phải có ít nhất 2 kí tự.
+            max_length: Tên sản phẩm không được dài hơn 255 kí tự.
+        description:
+            not_blank: Vui lòng nhập mô tả sản phẩm.
+            min_length: Mô tả sản phẩm phải có ít nhất 2 kí tự.
+    variant:
+        sku:
+            not_blank: Vui lòng nhập mã biến thể sản phẩm.
+            unique: Mã biến thể sản phẩm phải là duy nhất.
+    prototype:
+        name:
+            not_blank: Vui lòng nhập tên mẫu sản phẩm.
+            min_length: Tên mẫu sản phẩm phải có ít nhất 2 kí tự.
+            max_length: Tên mẫu sản phẩm không được dài hơn 255 kí tự.

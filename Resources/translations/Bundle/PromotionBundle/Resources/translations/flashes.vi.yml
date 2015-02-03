@@ -1,0 +1,6 @@
+sylius:
+    promotion_coupon:
+        generate: Phiếu giảm giá hợp lệ.
+        eligible: Phiếu giảm giá hợp lệ, được áp dụng cho đơn hàng này.
+        invalid: Phiếu giảm giá không hợp lệ.
+        not_eligible: Phiếu giảm giá của quí khách không được áp dụng cho đơn hàng này.

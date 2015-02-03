@@ -1,0 +1,16 @@
+sylius:
+    form:
+        taxon:
+            description: Mô tả
+            name: Tên
+            parent: Nhóm
+            permalink: Liên kết
+        taxonomy:
+            name: Tên
+    taxon:
+        create_taxon: Thêm phân loại
+        delete_taxonomy: Xóa phân loại
+        manage_taxonomies: Quản lý phân loại
+        no_taxonomies: Không có phân loại nào.
+        no_taxons: Không có phân loại nào.
+        update_taxonomy: Cập nhật phân loại

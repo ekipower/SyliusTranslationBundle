@@ -1,0 +1,15 @@
+sylius:
+  form:
+    product:
+        name: Tên
+        description: Mô tả
+        attributes: Đặc tính
+        options: Tùy chọn
+        meta_keywords: Từ khóa
+        meta_description: Mô tả
+    product_variant:
+        available_on: Thời gian áp dụng
+    product_prototype:
+        name: Tên
+        attributes: Đặc tính
+        options: Tùy chọn

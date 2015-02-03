@@ -1,0 +1,7 @@
+sylius:
+    currency:
+        code:
+            not_blank: Vui lòng chọn mã tiền tệ.
+            unique: Mã tiền tệ phải là duy nhất.
+        exchange_rate:
+            not_blank: Vui lòng nhập tỷ giá ngoại tệ.

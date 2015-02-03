@@ -1,0 +1,28 @@
+{
+    "name": "ekipower/sylius-translation-bundle",
+	"type": "symfony-bundle",
+    "description": "Bundle for translation of Sylius",
+	"keywords": ["sylius", "translation"]
+    "license": "MIT",
+    "authors": [
+		{
+			"name": "Nguyen Tien Hy",
+			"email: "ngtienhy@gmail.com"
+		},
+		{
+			"name": "EkiPower Group",
+			"homepage": "http://github.com/ekipower"
+		}
+        {
+            "name": "AnnetCo",
+            "homepage": "http://annetco.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+    },
+    "autoload": {
+        "psr-4": {"Eki\\Sylius\\SyliusTranslationBundle": ""}
+    }
+}

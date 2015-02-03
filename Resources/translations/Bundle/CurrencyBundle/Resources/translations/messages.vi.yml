@@ -1,0 +1,6 @@
+sylius:
+    form:
+        currency:
+            code: Mã
+            exchange_rate: Tỷ giá
+            enabled: Kích hoạt

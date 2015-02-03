@@ -1,0 +1,15 @@
+sylius:
+    attribute:
+        name:
+            not_blank: Vui lòng nhập tên đặc tính.
+            min_length: Tên đặc tính phải có ít nhất 2 kí tự.
+            max_length: Tên đặc tính không được dài hơn 255 kí tự.
+        presentation:
+            not_blank: Vui lòng nhập mô tả đặc tính.
+            min_length: Mô tả đặc tính phải có ít nhất 2 kí tự.
+            max_length: Mô tả đặc tính không được dài hơn 255 kí tự.
+    attribute_value:
+        attribute:
+            not_blank: Vui lòng chọn đặc tính.
+        value:
+            not_blank: Vui lòng nhập giá trị đặc tính.

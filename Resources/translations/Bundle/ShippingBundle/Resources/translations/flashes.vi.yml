@@ -1,0 +1,4 @@
+sylius:
+  shipment:
+    ship:
+      success: Đã hoàn tất việc giao hàng.

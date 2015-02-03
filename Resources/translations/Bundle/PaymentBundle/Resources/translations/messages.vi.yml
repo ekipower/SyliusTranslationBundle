@@ -1,0 +1,29 @@
+sylius:
+    form:
+        credit_card:
+            cardholder_name: Tên  chủ thẻ
+            expiry_month: Tháng hết hạn
+            expiry_year: Năm hết hạn
+            number: Số thẻ
+            security_code: Mã bảo mật
+            type: Loại thẻ
+        payment:
+            amount: Số tiền thanh toán
+            method: Phương thức thanh toán
+            state:
+                0: Trạng thái thanh toán
+                checkout: Thanh toán
+                completed: Đã hoàn thành
+                failed: Lỗi
+                new: Mới
+                pending: Treo
+                processing: Đang xử lý
+                unknown: Không rõ
+                void: Rỗng
+                cancelled: Đã hủy
+                refunded: Đã quay lại
+        payment_method:
+            description: Mô tả
+            enabled: Kích hoạt?
+            gateway: Cổng thanh toán
+            name: Tên

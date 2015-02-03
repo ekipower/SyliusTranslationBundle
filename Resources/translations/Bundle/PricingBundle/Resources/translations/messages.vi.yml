@@ -1,0 +1,20 @@
+sylius:
+    form:
+        priceable:
+            price: Giá
+            calculator: Chính sách giá
+            configuration: Cấu hình
+        pricing:
+            volume_based:
+                label: Cấu hình chính sách giá
+                min: Mức thấp nhất
+                max: Mức cao nhất
+                price: Giá
+    pricing:
+        volume_based:
+            min: Mức thấp nhất
+            max: Mức cao nhất
+            price: Giá
+            no_results: Không cấu hình chính sách giá
+            button:
+                add: Thêm

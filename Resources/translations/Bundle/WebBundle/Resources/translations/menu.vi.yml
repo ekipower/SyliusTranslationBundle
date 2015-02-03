@@ -1,0 +1,100 @@
+sylius:
+    backend:
+        menu:
+            main:
+                assortment: Loại
+                blocks: Khối
+                configuration: Cấu hình
+                countries: Quốc gia
+                customer: Khách hàng
+                content: Nội dung
+                dashboard: Bảng điều khiển
+                currencies: Đơn vị tiền tệ
+                general_settings: Cài đặt chung
+                groups: Nhóm
+                homepage: Cửa hàng của bạn
+                locales: Địa phương
+                new_order: Thêm đơn hàng mới
+                new_promotion: Thêm khuyến mãi mới
+                options: Quản lý tuỳ chọn sản phẩm
+                orders: Đơn đặt hàng hiện tại
+                pages: Các trang
+                payment_methods: Phương thức thanh toán
+                payments: Thanh toán
+                products: Sản phẩm
+                promotions: Chương trình khuyến mãi
+                attributes: Cấu hình các thuộc tính
+                prototypes: Sản phẩm mẫu
+                sales: Đơn đặt hàng
+                shipments: Vận chuyển
+                shipping_categories: Loại vậm chuyển
+                shipping_methods: Phương thức vận chuyển
+                stockables: Hiện trạng kho
+                tax_categories: Loại thuế
+                tax_rates: Thuế suất
+                taxation_settings: Cài đặt thuế
+                taxonomies: Phân loại
+                users: Người dùng
+                zones: Khu vực
+            sidebar:
+                assortment: Loại
+                blocks: Khối
+                configuration: Cấu hình
+                content: Nội dung
+                countries: Quốc gia
+                customer: Khách hàng
+                dashboard: Bảng điều khiển
+                currencies: Đơn vị tiền tệ
+                general_settings: Cài đặt chung
+                groups: Nhóm
+                homepage: Trở lại trang chủ
+                locales: Địa phương
+                new_order: Thêm đơn hàng mới
+                new_promotion: Thêm khuyến mãi mới
+                options: Quản lý tùy chọn
+                orders: Đơn đặt hàng hiện tại
+                pages: Trang
+                routes: Lộ trình
+                redirects: Chuyển hướng
+                menus: Danh mục
+                payment_methods: Phương thức thanh toán
+                payments: Thanh toán
+                products: Sản phẩm
+                promotions: Chương trình khuyến mãi
+                attributes: Cấu hình các thuộc tính
+                prototypes: Sản phẩm mẫu
+                sales: Đơn đặt hàng
+                shipments: Vận chuyển
+                shipping_categories: Loại hình vận chuyển
+                shipping_methods: Phương thức vận chuyển
+                slideshow: Tổng quan
+                stockables: Hiện trạng kho
+                tax_categories: Loại thuế
+                tax_rates: Thuế suất
+                taxation_settings: Cài đặt thuế
+                taxonomies: Phân loại
+                users: Người dùng
+                zones: Khu vực
+    frontend:
+        menu:
+            account:
+                addresses: Địa chỉ
+                homepage: Trang chủ
+                orders: Đơn hàng
+                password: Mật khẩu
+                profile: Thông tin cá nhân
+                shop: Cửa hàng
+            currency: Hiển thị giá bằng %currency%
+            main:
+                account: Tài khoản
+                administration: Quản trị
+                cart: Giỏ hàng (%items%) %total%
+                login: Đăng nhập
+                logout: Thoát
+                register: Đăng ký
+            social:
+                facebook: Facebook
+                github: GitHub
+                google: Google+
+                linkedin: LinkedIn
+                twitter: Twitter

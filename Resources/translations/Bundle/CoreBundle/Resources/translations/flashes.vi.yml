@@ -1,0 +1,12 @@
+sylius:
+    cart:
+        restricted_zone_removal: Sản phẩm %product% đã xóa khỏi giỏ hàng vì nó không bán ở quốc gia của quí khách.
+    checkout:
+        restricted_zone: Sản phẩm này không bán ở quốc gia của quí khách.
+        success: Cảm ơn quí khách đã đặt hàng!
+        canceled: Thanh toán của quí khách đã bị huỷ.
+        processing: Thanh toán của quí khách đang được xử lý.
+        new: Thanh toán của quí khách mới được tạo.
+        failed: Thanh toán của quí khách bị từ chối.
+        unknown: Xuất hiện lỗi không rõ trong quá trình thanh toán.
+        out_of_stock: Chỉ còn %quantity% %name% để chọn mua.

@@ -1,0 +1,13 @@
+sylius:
+    tax_category:
+        name:
+            not_blank: Vui lòng nhập tên loại thuế.
+    tax_rate:
+        category:
+            not_blank: Vui lòng chọn loại thuế.
+        name:
+            not_blank: Vui lòng nhập tên thuế suất.
+        amount:
+            not_blank: Vui lòng chọn thuế suất.
+        calculator:
+            not_blank: Vui lòng chọn cách thức tính thuế.

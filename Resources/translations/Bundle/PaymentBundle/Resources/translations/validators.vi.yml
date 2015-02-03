@@ -1,0 +1,25 @@
+sylius:
+    credit_card:
+        cardholder_name:
+            min_length: Tên chủ thẻ phải có ít nhất 255 kí tự.
+            not_blank: Vui lòng nhập tên chủ thẻ.
+        expiry_month:
+            max_range: Tháng hết hạn phải từ tháng 1 đến tháng 12.
+            min_range: Tháng hết hạn phải từ tháng 1 đến tháng 12.
+            not_blank: Vui lòng nhập tháng.
+        number:
+            not_blank: Vui lòng nhập số thẻ.
+            luhn: Số thẻ của quí khách không hợp lệ.
+        security_code:
+            not_blank: Vui lòng nhập mã bảo mật.
+            max_length: Mã bảo mật không được dài hơn 255 kí tự.
+            min_length: Mã bảo mật phải có ít nhất 2 kí tự.
+        expiry_year:
+            not_blank: Vui lòng nhập năm hết hạn.
+    payment_method:
+        gateway:
+            not_blank: Vui lòng chọn cổng thanh toán.
+        name:
+            max_length: Tên phương thức thanh toán không được dài hơn 255 kí tự.
+            min_length: Tên phương thức thanh toán phải có ít nhất 2 kí tự.
+            not_blank: Vui lòng nhập tên phương thức thanh toán.

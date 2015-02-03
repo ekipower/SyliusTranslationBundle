@@ -1,0 +1,8 @@
+sylius:
+    account:
+        address:
+            create: Đã thêm địa chỉ.
+            update: Đã cập nhật địa chỉ.
+            delete: Đã xóa địa chỉ.
+            set_as_billing: Đã thay đổi địa chỉ thanh toán.
+            set_as_shipping: Đã thay đổi địa chỉ giao hàng.			

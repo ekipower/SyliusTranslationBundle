@@ -1,0 +1,889 @@
+email:
+    order_confirmation:
+        subject: Đơn đặt hàng của quí khách đã xác nhận
+    order_comment:
+        subject: Đơn đặt hàng của quí khách đã nhận được phản hồi của cửa hàng
+        header: Nhận xét đơn hàng
+sylius:
+    account:
+        address:
+            action:
+                billing: Đặt làm địa chỉ thanh toán mặc định
+                create: Thêm một địa chỉ
+                delete: Xóa
+                edit: Sửa
+                shipping: Đặt làm địa chỉ giao hàng mặc định
+            create: Thêm một địa chỉ
+            default:
+                billing: Địa chỉ thanh toán mặc định
+                no_billing: Địa chỉ thanh toán khác
+                no_shipping: Địa chỉ giao hàng khác
+                shipping: Địa chỉ giao hàng mặc định
+            empty: Quí khách không có địa chỉ xác định
+            list: Tất cả địa chỉ của quí khách
+            update: Sửa địa chỉ
+        home:
+            email: Email:
+            id: ID khách hàng:
+            outline: Tận hưởng tất cả các tính năng sẵn có trên không gian cá nhân, theo dõi và quản lý tất cả dữ liệu của quí khách.
+            since: Quí khách là thành viên từ
+            welcome: Chào mừng quí khách 
+        order:
+            created_at: Được tạo vào
+            details: Chi tiết đơn hàng của quí khách
+            download_invoice: Tải hóa đơn
+            empty: Quí khách chưa có đơn đặt hàng nào
+            invoice: Hóa đơn
+            list: Tất cả đơn đặt hàng của quí khách
+            number: Số:
+            payment_mode: Phương thức thanh toán:
+            placed_at: Đặt tại %at%
+            shipment:
+                pending: Chưa xử lý
+                ready: Sẵn sàng từ %at%
+                returned: Trở lại từ %at%
+                shipped: Giao hàng từ %at%
+            shipment_mode: Phương thức giao hàng:
+            state: Trạng thái:
+            total: Tổng
+            tracking_number: Số theo dõi
+        title: Tài khoản của tôi
+    add_to_cart: Thêm vào giỏ
+    address:
+        city: Thành phố
+        company: Công ty
+        country: Quốc gia
+        firstname: Tên
+        lastname: Họ
+        postcode: Mã bưu chính
+        province: Tỉnh
+        street: Địa chỉ		   
+    alert:
+        error: Lỗi
+        info: Thông tin
+        success: Thành công
+        warning: Cảnh báo
+    backend:
+        alert:
+            info: Thông tin
+        dashboard:
+            chart_order_count: Số lượng đơn đặt hàng
+            chart_order_total: Giá trị đơn đặt hàng
+            header: Quản trị bảng điều khiển
+            orders: Đơn đặt hàng tuần trước
+            revenue: Doanh thu tuần trước
+            subheader: Tổng quan về cửa hàng của quí khách
+        logout: Thoát
+        quick_links:
+            add_product: Thêm sản phẩm
+            orders: Đơn hàng mới
+            products: Sản phẩm của quý khách
+            users: Người dùng
+        statistics:
+            header: Số liệu thống kê trong tháng
+            orders_this_month: Các đơn hàng trong tháng
+            registrations_this_month: Tổng số đăng ký trong tháng
+            sales_this_month: Số lượng đơn hàng trong tháng
+    backend_welcome: Xin chào <b>%name%</b>!
+    block:
+        body: Nội dung
+        create: Thêm mới
+        create_header: Thêm nội dung
+        id: ID
+        index_header: Khối nội dung
+        no_results: Không có khối nội dung này
+        title: Tiêu đề
+        update_header: Chỉnh sửa khối nội dung
+        updated_at: Cập nhật lần cuối
+        simple_blocks: Các khối đơn giản
+        string_blocks: Các khối chuỗi
+        imagine_blocks: Các khối hình ảnh
+        slideshow_blocks: Các Gallery
+        imagine:
+            create: Thêm hình ảnh
+            create_header: Thêm hình ảnh 
+            id: Id
+            index: Hình ảnh
+            index_header: Hình ảnh
+            label: Nhãn
+            update_header: Chỉnh sửa hình ảnh
+        slideshow:
+            create: Thêm Gallery
+            create_header: Thêm Gallery
+            id: Id
+            index: Gallery
+            index_header: Gallery
+            title: Tiêu đề
+            update_header: Chỉnh sửa Gallery
+    breadcrumb:
+        assortment: Loại
+        block:
+            index: Khối nội dung
+            imagine:
+                index: Khối hình ảnh
+            slideshow:
+                index: Gallery
+        build: Xây dựng
+        configuration: Cấu hình
+        content: Nội dung
+        country:
+            index: Quốc gia
+        customers: Khách hàng
+        dashboard: Bảng điều khiển
+        edit: Chỉnh sửa
+        contact_request:
+            index: Nội dung liên hệ
+            show: Nội dung liên hệ
+        contact_topic:
+            index: Chủ đề
+        content: Nội dung
+        currency:
+            index: Tỷ giá ngoại tệ
+        general_settings: Cài đặt chung
+        generate: Thêm
+        group:
+            index: Nhóm
+        inventory:
+            index: Hàng trong kho
+        locale:
+            index: Ngôn ngữ
+        menu:
+            index: Danh mục
+        menu_node:
+            index: Danh mục
+        new: Mới
+        option:
+            index: Tùy chọn
+        order:
+            index: Đơn đặt hàng
+            adjustments: Điều chỉnh
+        page:
+            index: Các trang tĩnh
+        payment:
+            index: Thanh toán
+        payment_method:
+            index: Phương thức thanh toán
+        product:
+            index: Sản phẩm
+        promotion:
+            index: Khuyến mãi
+        promotion_coupon:
+            index: Phiếu giảm giá
+        attribute:
+            index: Đặc tính
+        prototype:
+            index: Mẫu sản phẩm
+        redirect_route:
+            index: Redirect routes
+        route:
+            index: Routes
+        sales: Đơn đặt hàng
+        shipment:
+            index: Giao hàng
+        shipping_category:
+            index: Loại giao hàng
+        shipping_method:
+            index: Phương thức giao hàng
+        tax_category:
+            index: Loại thuế
+        tax_rate:
+            index: Giá thuế
+        taxation_settings: Cài đặt mức thuế
+        taxonomy:
+            index: Nguyên tắc phân loại
+        update: Chỉnh sửa
+        user:
+            index: Người dùng
+        zone:
+            index: Vùng
+    browse_products: Duyệt sản phẩm
+    cancel: Hủy
+    cart:
+        empty: Giỏ hàng của quí khách đang trống
+        summary:
+            add_coupon: Thêm phiếu giảm giá
+            checkout: Thanh toán
+            clear: Xóa giỏ hàng
+            grand_total: Tổng cộng
+            product: Sản phẩm
+            quantity: Số lượng
+            save: Lưu lại
+            total: Tổng cộng
+            unit_price: Giá
+        summary_header: Tóm lược giỏ hàng
+        total_items: 1 item|%count% items
+    checkout:
+        addressing:
+            header: Địa chỉ
+        back: Trở lại
+        credit_card:
+            header: Chi tiết thanh toán
+        finalize:
+            address:
+                city: Thành phố
+                country: Quốc gia
+                firstname: Tên
+                lastname: Họ
+                postcode: Mã bưu chính
+                province: Tỉnh
+                street: Địa chỉ
+            header: Tóm lược đơn hàng
+            order:
+                billing_address: Địa chỉ thanh toán
+                items_total: Tổng
+                no_items: Đơn hàng này không có sản phẩm nào
+                no_promotion: Không áp dụng khuyến mãi
+                no_shipping_charges: Miễn phí vận chuyển
+                no_taxes: Không chịu thuế
+                promotion_discount: Khuyến mãi
+                promotion_total: Tổng cộng khuyến mãi
+                shipping_address: Địa chỉ giao hàng
+                shipping_charges: Chi phí vận chuyển
+                shipping_total: Chi phí vận chuyển
+                tax_total: Tổng tiền thuế
+                taxes: Thuế
+                total: Tổng cộng
+            order_item:
+                quantity: Số lượng
+                total: Tổng cộng
+                unit_price: Đơn giá
+            place_order: Đặt hàng
+            product:
+                name: Tên
+        forward: Tiếp tục
+        payment:
+            header: Phương thức thanh toán
+        security:
+            existing_customer: Khách hàng hiện tại
+            header: Đăng nhập hoặc tạo tài khoản
+            login: Đăng nhập
+            new_customer: Thêm mới
+            register: Đăng ký
+            guest: Khách vãng lai
+            proceed_order: Hãy bắt đầu với đơn hàng của quí khách
+        shipping:
+            error: Chúng tôi rất tiếc, cửa hàng của chúng tôi không thể vận chuyển sản phẩm này đến quốc gia mà bạn đã chọn.
+            header: Phương thức giao hàng
+    confirmation:
+        message: Bạn có muốn xóa khoản mục này không?
+        title: Xác nhận
+    country:
+        add_province: Thêm tỉnh
+        create: Thêm quốc gia
+        create_header: Thêm quốc gia
+        id: ID
+        index_header: Quốc gia
+        iso_name: Mã ISO 
+        manage: Quản lý quốc gia
+        name: Tên
+        no_results: Không có quốc gia này
+        show_header: Mô tả
+        update_header: Sửa
+    create: Thêm mới
+    created_at: Được tạo vào lúc
+    delete: Xóa
+    deleted: Đã bị xóa
+    edit: Sửa
+    move_up: Di chuyển lên
+    move_down: Di chuyển xuống
+    email: Email
+    currency:
+        create: Thêm tỷ giá ngoại tệ
+        create_header: Thêm tỷ giá ngoại tệ 
+        code: Mã
+        id: ID
+        name: Tên
+        enabled: Bật
+        index_header: Tỷ giá ngoại tệ
+        no_results: Chưa có tỷ giá ngoại tệ này.
+        exchange_rate: Tỷ giá ngoại tệ
+        update_header: Chỉnh sửa tỷ giá ngoại tệ
+        updated_at: Cập nhật lần cuối
+    filter: Lọc
+    form:
+        cart:
+            coupon: Nhập mã phiếu giảm giá vào đây
+        choose_file: Chọn tập tin
+        frontend:
+            password:
+                confirmation: Xác nhận
+                current: Mật khẩu hiện tại
+                new: Mật khẩu mới
+                title: Thay đổi mật khẩu
+            profile:
+                title: Chỉnh sửa thông tin cá nhân
+        login:
+            email: Email
+            password: Mật khẩu
+        menu:
+            add_menu_node: Thêm mới
+        option_value:
+            add_value: Thêm giá trị
+        profile:
+            email: Email
+            firstName: Tên
+            lastName: Họ
+        comment:
+            comment: Bình luận
+            notify_customer: Thông báo cho khách hàng?
+        slideshow:
+            add_slide: Thêm slide
+    gallery:
+        next: Kế tiếp
+        previous: Trước
+        slideshow: Slideshow
+    generate: Thêm
+    group:
+        create: Thêm nhóm
+        create_header: Thêm nhóm người dùng
+        id: ID
+        index_header: Nhóm
+        name: Tên
+        no_results: Không có nhóm này
+        roles: Vai trò
+        update_header: Sửa nhóm
+    hide_deleted: Ẩn thông tin đã xóa
+    history:
+        header: Lịch sử
+        action: Hoạt động
+        author: Tác giả
+        data: Dữ liệu
+        logged_at: Đăng nhập
+        revert: Trở về
+        no_results: Không có số liệu đăng nhập trước đây.
+        empty: Trống
+    homepage:
+        splash:
+            headline: Chào mừng quí khách đến với ItaRice
+            subheadline: Siêu thị gạo sạch cao cấp cùng các khuyến mãi hấp dẫn
+    inventory_unit:
+        created_at: Thêm
+        inventory_state: Trạng thái
+        name: Tên
+        no_results: Không có hàng trong kho
+        shipping_state: Phương thức giao hàng
+        sku: Mã hàng
+        updated_at: Cập nhật lần cuối
+    locale:
+        code: Mã
+        create: Thêm địa điểm
+        create_header: Thêm địa điểm
+        enabled: Đã được kích hoạt
+        index_header: Danh sách các địa điểm
+        no_results: Không có địa điểm này
+        update_header: Sửa địa điểm
+        updated_at: Cập nhật lần cuối
+    login: Đăng nhập
+    login_header: Quản trị
+    logo: ItaRice
+    manage: Quản lý
+    menu:
+        create: Thêm
+        create_header: Thêm danh mục
+        id: ID
+        index_header: Danh mục
+        no_results: Không có danh mục này
+        title: Tiêu đề
+        update_header: Chỉnh sửa danh mục
+    menu_node:
+        create: Thêm node
+        create_header: Thêm node
+        id: ID
+        index_header: Danh mục node
+        no_results: Không có node này
+        parent: Danh mục
+        title: Tiêu đề
+        update_header: Sửa node
+    meta:
+        backend_title: Bảng điều khiển
+        frontend_description: Sylius, giải pháp thương mại điện tử hiện đại cho PHP, dựa trên Symfony2.
+        frontend_keywords: sylius, thương mại điện tử, symfony2, của hàng, giỏ hàng, webshop
+        frontend_title: Sylius, giải pháp thương mại điện tử hiện đại dựa trên Symfony2
+    na: N/A
+    newest: Sản phẩm mới nhất
+    no: false
+    no_results: Không có kết quả nào
+    product_option:
+        create: Thêm tùy chọn
+        create_header: Thêm tuỳ chọn sản phẩm mới
+        index_header: Tuỳ chọn cho sản phẩm
+        manage: Quản lý tuỳ chọn
+        name: Tên
+        no_results: Không có tùy chọn
+        presentation: Trình bày
+        update_header: Chỉnh sửa tùy chọn
+        updated_at: Cập nhật lần cuối
+        values: Giá trị
+    order:
+        billing_address: Địa chỉ thanh toán
+        create: Thêm đơn hàng
+        create_header: Thêm đơn hàng
+        created_at: Được tạo vào lúc
+        details: Chi tiết đơn hàng
+        general_info: Thông tin chung
+        guest: Khách hàng
+        id: ID
+        index_header: Đơn hàng hiện tại
+        inventory_tracking: Theo dõi hàng trong kho
+        items_total: Tổng 
+        items: Sản phẩm
+        manage: Quản lý đơn hàng
+        no_items: Đơn hàng này không có sản phẩm nào
+        no_results: Quí khách không có đơn hàng mới
+        no_shipments: Không có phương thức giao hàng nào được áp dụng cho đơn hàng này
+        no_shipping_charges: Miễn phí giao hàng
+        no_taxes: Không chịu thuế
+        number: Số
+        order_state: Trạng thái đơn hàng
+        payment: Thanh toán
+        payment_state: Trạng thái thanh toán
+        payment_states:
+            balance_due: Số dư
+        promotion_total: Tổng số tiền khuyến mãi
+        recent_header: Đơn hàng gần đây
+        shipment_state: Phương thức giao hàng
+        shipment_states:
+            pending: Chưa xử lý
+        shipments: Giao hàng
+        release_inventory: Tồn kho thực tế
+        inventory_unit:
+            backorder: Quay lại đơn hàng
+            fulfill: Thực hiện
+            return: Trở về
+        shipping_address: Địa chỉ giao hàng
+        shipping_charges: Chi phí giao hàng
+        shipping_total: Tổng chi phí giao hàng
+        show_header: "Đơn hàng #%number%"
+        state:
+            cart_locked: Giỏ hàng bị khóa
+            checkout: Thanh toán
+            order_confimed: Đơn hàng đã xác nhận
+            ordered: Đã hoàn tất đặt hàng
+            shipped: Đã giao hàng
+            abandoned: Đã bỏ đơn hàng
+            cancelled: Đã hủy đơn hàng
+            returned: Đã tiếp tục đơn hàng
+        tax_total: Tổng tiền thuế
+        taxes: Thuế
+        total: Tổng
+        update_header: Chỉnh sửa đơn hàng
+        user: Người dùng
+        currency: Tiền tệ
+        state: Trạng thái
+        immutable_warning: Cảnh báo, sản phẩm đã được giao là không thể thay đổi.
+        promotion_coupons: Phiếu giảm giá
+        no_promotion: Không có phiếu giảm giá
+        adjustments:
+            manage: Quản lý việc điều chỉnh
+            label: Nhãn
+            description: Mô tả
+            amount: Số tiền
+            locked: Đã bị khóa?
+            lock: Khóa
+            unlock: Mở khóa
+            lock_all: Khóa tất cả các điều chỉnh
+            unlock_all: Mở tất cả các điều chỉnh
+        comment:
+            header: Bình luận
+            comment: Bình luận
+            author: Tác giả
+            created_at: Được tạo vào lúc
+            notify: Thông báo
+            state: Trạng thái
+            customer:
+                notified: Đã thông báo cho khách hàng
+                not_notified: Khách hàng không nhận được thông báo
+            no_comment: Không bình luận
+    route:
+        create: Thêm 
+        create_header: Creating route
+        id: ID
+        index_header: Routes
+        name: Tên
+        no_results: There are no routes to display.
+        page: Trang
+        title: Tiêu đề
+        update_header: Editing route
+        view: Tổng quan
+    redirect_route:
+        create: Create redirect route
+        create_header: Creating redirect route
+        id: ID
+        index_header: Redirect route
+        no_results: There are no redirect routes to display.
+        title: Tiêu đề
+        update_header: Editing redirect route
+        updated_at: Cập nhật lần cuối
+    shipment:
+        ship: Vận chuyển
+        created_at: Được tạo vào lúc
+        id: ID
+        index_header: Vận chuyển
+        inventory_state: Trạng thái hàng trong kho
+        manage: Quản lý hàng
+        method: Phương thức
+        modified: Sửa đổi
+        name: Tên
+        no_items: Không có mục nào
+        no_results: Không có mục nào để chọn.
+        order: Đặt hàng
+        show_header: Chi tiết lô hàng
+        sku: Mã hàng
+        state: Trạng thái
+        tracking_code: Theo dõi code
+        update: Chỉnh sửa
+        update_header: Chỉnh sửa lô hàng
+        updated_at: Cập nhật lần cuối
+    order_item:
+        product: Sản phẩm
+        quantity: Số lượng
+        sellable: Sản phẩm
+        total: Tổng
+        unit_price: Đơn giá
+    out_of_stock: Hết hàng
+    page:
+        body: Nội dung
+        create: Thêm một trang
+        create_header: Thêm một nội dung
+        id: ID
+        index_header: Các trang
+        no_results: Không có trang này
+        title: Tiêu đề
+        update_header: Cập nhật lần cuối
+    password: Mật khẩu
+    payment:
+        amount: Số tiền
+        create: Thêm thanh toán
+        create_header: Thêm thanh toán
+        created_at: Được tạo vào lúc
+        id: ID
+        index_header: Thanh toán
+        manage: Quản lý thanh toán
+        method: Phương thức
+        no_results: Không có phương thức thanh toán này
+        state:
+            0: Trạng thái
+            cancelled: Đã hủy
+            checkout: Thanh toán
+            completed: Đã hoàn tất
+            failed: Thất bại
+            new: Mới
+            pending: Chưa xử lý
+            processing: Đang xử lý
+            refunded: Đã hoàn lại
+            unknown: Không rõ
+            void: Rỗng
+        update_header: Chỉnh sửa thanh toán
+        updated_at: Cập nhật lần cuối
+    payment_method:
+        create: Thêm phương thức thanh toán
+        create_header: Thêm phương thức thanh toán
+        enabled: Kích hoạt?
+        gateway: Cổng thanh toán
+        id: ID
+        index_header: Phương thức thanh toán
+        name: Tên
+        no_results: Không tồn tại phương thức thanh toán này.
+        update_header: Chỉnh sửa phương thức thanh toán
+        updated_at: Cập nhật lần cuối
+    product:
+        add_attribute: Thêm đặc tính
+        available_on: Thời gian áp dụng
+        available_on_demand: Có sẵn theo yêu cầu
+        categorization: Phân loại
+        contain_variants: Chứa các biến thể
+        create: Thêm sản phẩm
+        create_header: Thêm sản phẩm
+        description: Mô tả
+        generate_variants: Tạo các biến thể
+        index_by_taxon_header: Products <small>Categorized under "%taxon%" taxon</small>
+        index_header: Tất cả sản phẩm hiện có
+        manage: Quản lý sản phẩm
+        name: Tên
+        no_description: Không có mô tả
+        no_images: Không có hình ảnh nào cho sản phẩm này
+        no_options: Không có tùy chọn nào cho sản phẩm này
+        no_attributes: Sản phẩm này không có đặc tính nào
+        no_results: Không có sản phẩm nào để hiển thị
+        no_shipping_category: Không có loại giao hàng
+        no_short_description: Không có mô tả ngắn
+        no_sku: Không có mã hàng
+        no_tax_category: Không có loại thuế
+        no_taxons: Không có sự phân loại cho sản phẩm này
+        options: Các tùy chọn
+        variants: Các biến thể
+        price: Giá bán lẻ
+        attributes: Đặc tính
+        restricted_zone: Khu vực hạn chế
+        remove_attribute: Xóa đặc tính
+        shipping_category: Loại giao hàng
+        show: Xem thêm
+        show_header: Product details <small>Viewing product "<strong>%product%</strong>"</small>
+        show_in_store: Xem giỏ hàng
+        sku: Mã hàng
+        stock: Hàng trong kho
+        tabs:
+            categorization: Phân loại
+            images: Các hình ảnh
+            options: Các tùy chọn
+            product: Sản phẩm
+            attributes: Đặc tính
+        tax_category: Loại thuế
+        unavailable: Không có sẵn
+        update_header: Chỉnh sửa sản phẩm
+        updated_at: Cập nhật lần cuối
+        variant_selection_method: Lựa chọn biến thể
+        view_details: Xem %product% chi tiết
+        volume_price: Mức giá
+        volume_based:
+            qty_min: Số lượng tối thiểu
+            qty_max: Số lượng tối đa
+            price: Giá
+    product_not_available_in_zone: Không có sẵn ở quốc gia của quí khách
+    promotion:
+        actions: Hoạt động
+        add_action: Thêm hoạt động
+        add_rule: Thêm quy tắc
+        coupon_based: Dựa vào phiếu giảm giá?
+        create: Thêm khuyến mãi
+        create_header: Thêm khuyến mãi
+        created_at: Được tạo vào lúc
+        description: Mô tả
+        ends_at: Kết thúc vào
+        general_info: Thông tin chung
+        id: ID
+        index_header: Chương trình khuyến mãi đang diễn ra
+        manage: Quản lý các chương trình khuyến mãi
+        name: Tên
+        no_results: Không có chương trình khuyến mãi nào
+        rules: Nội quy
+        show_header: Chi tiết chương trình khuyến mãi
+        starts_at: Bắt đầu từ
+        update_header: Chỉnh sửa chương trình khuyến mãi
+        updated_at: Cập nhật lần cuối
+        usage_limit: Hạn chế sử dụng
+        used: Được sử dụng
+        priority: Ưu tiên
+        exclusive: Độc quyền
+    promotion_action:
+        configuration: Cấu hình
+        type: Kiểu
+    promotion_coupon:
+        code: Code
+        create: Thêm phiếu giảm giá
+        create_header: Thêm phiếu giảm giá
+        generate: Thêm phiếu giảm giá
+        generate_header: Thêm phiếu giảm giá
+        index: Danh sách các phiếu giảm giá
+        index_header: Phiếu giảm giá
+        no_results: Không có phiếu giảm giá này
+        total_results: Tổng: %total%
+        update_header: Chỉnh sửa phiếu giảm giá
+    promotion_rule:
+        configuration: Cấu hình
+        type: Kiểu
+    product_attribute:
+        add_choice: Thêm lựa chọn
+        create: Tạo đặc tính sản phẩm
+        create_header: Tạo đặc tính sản phẩm mới
+        index_header: Đặc tính sản phẩm
+        manage: Quản lý các đặc tính
+        name: Tên
+        no_results: Không có đặc tính này
+        presentation: Trình bày
+        type: Kiểu
+        update_header: Chỉnh sửa đặc tính
+        updated_at: Cập nhật lần cuối
+    prototype:
+        build: Xây dựng mẫu sản phẩm
+        build_header: Xây dựng mẫu sản phẩm
+        create: Thêm mẫu sản phẩm
+        create_header: Thêm mẫu sản phẩm
+        index_header: mẫu sản phẩm
+        name: Tên
+        no_results: Không có mẫu sản phẩm này
+        options: Tùy chọn
+        attributes:
+        update_header: Chỉnh sửa mẫu sản phẩm
+        updated_at: Cập nhật lần cuối
+    province:
+        provinces: Tỉnh
+    remember_me: Ghi nhớ?
+    save_changes: Lưu các thay đổi
+    search: Tìm kiếm
+    settings:
+        general_header: Cài đặt chung
+        taxation_header: Cài đặt thuế
+    shipment_category:
+        manage: Quản lý các loại giao hàng
+    shipping_address: Địa chỉ giao hàng
+    shipping_category:
+        create: Thêm loại giao hàng
+        create_header: Thêm loại giao hàng
+        id: ID
+        index_header: Loại giao hàng
+        manage: Quản lý các loại giao hàng
+        name: Tên
+        no_results: Không có loại giao hàng này
+        update_header: Chỉnh sửa loại giao hàng
+        updated_at: Cập nhật lần cuối
+    shipping_method:
+        calculator: Máy tính
+        category: Loại
+        create: Thêm phương thức giao hàng
+        create_header: Thêm phương thức giao hàng
+        enabled: Được kích hoạt?
+        id: ID
+        index_header: Phương thức giao hàng
+        manage: Quản lý phương thức giao hàng
+        name: Tên
+        no_results: Không có phương thức giao hàng này
+        show_header: Chi tiết của phương thức giao hàng
+        update_header: Chỉnh sửa phương thức giao hàng
+        updated_at: Cập nhật lần cuối
+        zone: Vùng
+    shop_by: Cửa hàng
+    show: Chi tiết
+    show_all: Chi tiết
+    show_deleted: Đã xóa
+    stockable:
+        index_header: Quí khách có thể thấy số lượng hàng trong kho
+        name: Tên
+        no_results: Không có hàng trong
+        on_hand: Số lượng có thể bán
+        on_hold: Giữ lại
+        sku: Mã hàng
+        updated_at: Cập nhật lần cuối
+    tax_category:
+        create: Thêm loại thuế
+        create_header: Thêm loại thuế
+        description: Mô tả
+        id: ID
+        index_header: Loại thuế
+        manage: Quản lý loại thuế
+        name: Tên
+        no_description: Không có mô tả
+        no_results: Không có loại thuế này
+        update_header: Chỉnh sửa loại thuế
+        updated_at: Cập nhật lần  cuối
+    tax_rate:
+        amount: Số tiền
+        calculator: Bộ tính toán
+        category: Loại
+        create: Thêm thuế suất
+        create_header: Thêm thuế suất
+        included_in_price: Đã bao gồm trong giá?
+        index_header: Thuế suất
+        manage: Quản lý thuế suất
+        name: Tên
+        no_results: Không có loại thuế suất này
+        show_header: Chi tiết thuế suất
+        update_header: Cập nhật thuế suất
+        updated_at: Cập nhật lần cuối
+        zone: Vùng
+    taxon:
+        create: Thêm loại
+        create_header: Thêm loại
+        image: Chọn hình ảnh
+        name: Tên
+        no_image: Không có hình ảnh cho loại này
+        no_results: Không có loại này
+        product_index_header: Loại sản phẩm là "%name%"
+        update_header: Chỉnh sửa loại
+    taxonomy:
+        create: Thêm loại
+        create_header: Thêm loại
+        image: Chọn hình ảnh
+        index_header: Các phân loại đã được định nghĩa ở đây
+        manage: Quản lý loại
+        name: Tên
+        no_image: Không có hình ảnh cho loại này
+        no_results: Không có kiểu phân loại này.
+        show_header: Taxonomy <small><strong>%name%</strong></small>
+        update_header: Chỉnh sửa loại
+    total_quantity: Tổng cộng
+    unknown: Không rõ
+    user:
+        billing_address: Địa chỉ thanh toán
+        create: Thêm người dùng
+        create_header: Thêm người dùng
+        email: Email
+        enabled: Xác nhận?
+        filter:
+            all: Hiển thị tất cả người dùng
+            unconfirmed: Tài khoản chưa được xác nhận
+        first_name: Tên
+        general_info: Thông tin người dùng "%username%"
+        id: ID
+        index_header: Danh sách người dùng
+        last_login: Lần đăng nhập cuối
+        last_name: Họ
+        impersonate: Đăng nhập như là người dùng này
+        manage: Quản lý người dùng
+        no_results: Không có người dùng này
+        oauth:
+            provider: Người cung cấp
+            identifier: Định danh
+            access_token: Mã truy cập
+            none: Không có tài khoản để đăng nhập
+        order:
+            no_results: Quí khách không có đơn hàng nào
+        orders: Các đơn hàng của quí khách
+        recent_header: Người dùng hiện tại
+        registration_date: Ngày đăng ký
+        shipping_address: Địa chỉ giao hàng
+        show_header: Chi tiết người dùng
+        update_header: Chỉnh sửa người dùng
+        username: Tên đăng nhập
+    variant:
+        add_image: Thêm hình ảnh
+        availability: Có sẵn
+        available_on_demand: Có sẵn theo yêu cầu
+        create: Thêm biến thể
+        create_header: Thêm biến thể
+        delete_image: Xóa hình
+        last_update: Cập nhật lần cuối
+        no_results: Không có biến thể nào
+        options: Tùy chọn
+        price: Giá
+        sku: Mã hàng
+        stock: Hàng trong kho
+        update_header: Chỉnh sửa biến thể
+    yes: Đồng ý
+    zone:
+        add_member: Thêm thành phần
+        create: Thêm vùng
+        create_header: Thêm vùng
+        index_header: Các vùng
+        manage: Quản lý các vùng
+        name: Tên
+        no_results: Không có vùng này
+        show_header: Chi tiết vùng
+        type: Kiểu
+        update_header: Chỉnh sửa vùng
+        scope: Phạm vi
+    zone_member:
+        members: Thành phần
+    contact_topic:
+        create: Thêm chủ đề liên hệ
+        create_header: Thêm chủ đề liên hệ
+        id: ID
+        title: Tiêu đề
+        index_header: Chủ đề liên hệ
+        no_results: Không có chủ đề liên hệ này
+        update_header: Chỉnh sửa chủ đề liên hệ
+        updated_at: Cập nhật lần cuối
+    contact_request:
+        create: Thêm yêu cầu liên hệ
+        create_header: Thêm yêu cầu liên hệ
+        id: ID
+        firstName: Tên
+        lastName: Họ
+        email: Email
+        message: Nội dung
+        topic: Chủ đề
+        index_header: Yêu cầu liên hệ
+        no_results: Không có yêu cầu liên hệ này
+        update_header: Chỉnh sửa yêu cầu
+        updated_at: Cập nhật lần cuối
+        show_header: Chi tiết yêu cầu

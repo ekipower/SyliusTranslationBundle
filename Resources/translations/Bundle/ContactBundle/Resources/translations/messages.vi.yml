@@ -1,0 +1,10 @@
+sylius:
+    form:
+        contact_request:
+            first_name: Tên
+            last_name: Họ
+            email: Email
+            message: Nội dung
+            topic: Chủ đề
+        contact_topic:
+            title: Tiêu đề

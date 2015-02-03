@@ -1,0 +1,5 @@
+sylius:
+    locale:
+        code:
+            not_blank: Vui lòng nhập mã ngôn ngữ.
+            unique: Mã ngôn ngữ phải là duy nhất.

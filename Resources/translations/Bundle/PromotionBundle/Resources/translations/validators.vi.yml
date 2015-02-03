@@ -1,0 +1,24 @@
+sylius:
+    promotion:
+        description:
+            max_length: Mô tả chương trình khuyến mãi không được dài hơn 1000 kí tự.
+            min_length: Mô tả chương trình khuyến mãi phải có ít nhất 1 kí tự.
+            not_blank: Vui lòng nhập mô tả chương trình khuyến mãi.
+        name:
+            max_length: Tên chương trình khuyến mãi không được dài hơn 255 kí tự.
+            min_length: Tên chương trình khuyến mãi phải có ít nhất 1 kí tự.
+            not_blank: Vui lòng nhập tên chương trình khuyến mãi.
+    promotion_coupon:
+        code:
+            max_length: Mã phiếu giảm giá không được dài hơn 255 kí tự.
+            min_length: Mã phiếu giảm giá phải có ít nhất 1 kí tự.
+            not_blank: Vui lòng nhập mã phiếu giảm giá.
+            unique: Phiếu giảm giá này đã tồn tại.
+        usage_limit:
+            min: Số lượng phiếu giảm giá phải có ít nhất là 1 phiếu.
+    promotion_coupon_generate_instruction:
+        amount:
+            min: Trị giá của phiếu giảm giá ít nhất phải là 1000 đ.
+            not_blank: Vui lòng nhập số lượng phiếu giảm giá của chương trình khuyến mãi.
+        usage_limit:
+            min: Số lượng phiếu giảm giá phải có ít nhất là 1 phiếu.

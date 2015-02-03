@@ -1,0 +1,11 @@
+sylius:
+    form:
+        tax_category:
+            name: Tên
+            description: Mô tả
+        tax_rate:
+            category: Loại
+            name: Tên
+            amount: Số tiền
+            included_in_price: Đã bao gồm trong giá?
+            calculator: Bộ tính toán

@@ -1,0 +1,2 @@
+# Ekipower Sylius Translation Bundle
+

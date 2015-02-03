@@ -1,0 +1,34 @@
+sylius:
+    group:
+        name:
+            max: Tên nhóm không được dài hơn 255 kí tự.
+            min: Tên nhóm phải có ít nhất 2 kí tự.
+            not_blank: Vui lòng nhập tên nhóm.
+    locale:
+        code:
+            not_blank: Vui lòng nhập ngôn ngữ.
+            unique: Ngôn ngữ này đã tồn tại.
+    user:
+        first_name:
+            max: Tên không được dài hơn 255 kí tự.
+            min: Tên phải có ít nhất 2 kí tự.
+            not_blank: Vui lòng nhập tên.
+        last_name:
+            max: Họ không được dài hơn 255 kí tự.
+            min: Họ phải có ít nhất 2 kí tự.
+            not_blank: Vui lòng nhập họ.
+    product_variant:
+        onHand:
+            min: Tên phải nhiều hơn 255 kí tự.
+            not_blank: Vui lòng nhập tên.
+        price:
+            min: Giá không được để số âm.
+            not_blank: Vui lòng nhập giá.
+sylius_shipping:
+    method:
+        zone:
+            not_blank: Vui lòng nhập phương thức giao hàng.
+sylius_taxation:
+    rate:
+        zone:
+            not_blank: Vui lòng nhập thuế suất.

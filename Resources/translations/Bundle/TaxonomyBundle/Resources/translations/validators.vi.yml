@@ -1,0 +1,10 @@
+sylius:
+    taxon:
+        name:
+            max_length: Tên phân loại không được dài hơn 255 kí tự.
+            not_blank: Vui lòng nhập tên phân loại.
+    taxonomy:
+        name:
+            max_length: Tên phân loại không được dài hơn 255 kí tự.
+            not_blank: Vui lòng nhập tên phân loại.
+

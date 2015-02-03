@@ -1,0 +1,92 @@
+sylius:
+    checkout:
+        shipping_method:
+            not_blank: Vui lòng chọn phương thức giao hàng.
+    form:
+        action:
+            add_product_configuration:
+                price: Đơn giá
+                quantity: Số lượng
+                variant: Biến thể
+        block:
+            body: Nội dung
+            id: ID
+            title: Tiêu đề
+        cart:
+            coupon: Phiếu giảm giá
+        checkout:
+            addressing:
+                different_billing_address: Chọn địa chỉ khác để thanh toán?
+            payment_method: Phương thức thanh toán
+            shipping_method: Phương thức giao hàng
+        coupon:
+            per_user_usage_limit: Số lượng
+        group:
+            name: Tên
+            roles: Vai trò
+        image:
+            file: Hình
+        locale:
+            code: Mã
+            enabled: Bật
+        order_filter:
+            created_at_from: Bắt đầu
+            created_at_to: Kết thúc
+            number: Số
+            total_from: Từ số
+            total_to: Đến số
+            payment_state: Trạng thái thanh toán
+        page:
+            body: Nội dung
+            id: ID
+            title: Tiêu đề
+        product:
+            restricted_zone: Khu vực hạn chế
+            shipping_category: Loại giao hàng
+            short_description: Mô tả ngắn
+            tax_category: Loại thuế
+            variant_selection_method: Lựa chọn biến thể
+        product_filter:
+            name: Tên
+            sku: Mã hàng
+        settings:
+            general:
+                currency: Đơn vị tiền tệ mặc định
+                locale: Ngôn ngữ
+                meta_description: Mô tả
+                meta_keywords: Từ khóa
+                title: Tiêu đề
+            taxation:
+                default_tax_zone: Loại thuế mặc định
+        shipment_filter:
+            created_at_from: Từ 
+            created_at_to: Đến 
+            number: Số đơn hàng
+            shipping_address: Địa chỉ giao hàng
+        shipping_method:
+            zone: Vùng
+        taxon:
+            file: Chọn hình
+        taxonomy:
+            file: Chọn hình
+        user:
+            billing_address: Địa chỉ thanh toán
+            different_billing_address: Chọn địa chỉ khác để thanh toán
+            enabled: Bật
+            first_name: Tên
+            groups: Nhóm
+            last_name: Họ
+            password: Mật khẩu
+            shipping_address: Địa chỉ giao hàng
+        user_filter:
+            query: Tìm kiếm
+        variant:
+            available_on_demand: Có sẵn theo yêu cầu
+            depth: Chiều sâu
+            height: Chiều cao
+            images: Hình ảnh
+            on_hand: Hàng trong kho
+            price: Giá
+            sku: Mã hàng
+            weight: Trọng lượng
+            width: Chiều rộng

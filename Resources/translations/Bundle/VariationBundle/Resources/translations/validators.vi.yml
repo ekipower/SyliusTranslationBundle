@@ -1,0 +1,17 @@
+sylius:
+    option:
+        name:
+            not_blank: Vui lòng nhập tên tùy chọn.
+            min_length: Tên tùy chọn phải có ít nhất 2 kí tự.
+            max_length: Tên tùy chọn không được dài hơn 255 kí tự.
+        presentation:
+            not_blank: Vui lòng nhập mô tả tùy chọn.
+            min_length: Mô tả phải có ít nhất 2 kí tự.
+            max_length: Mô tả không được dài hơn 255 kí tự.
+        values:
+            min_count: Vui lòng thêm ít nhất 1 giá trị tùy chọn.
+    option_value:
+        value:
+            not_blank: Vui lòng nhập giá trị tùy chọn.
+    variant:
+        combination: Biến thể của tùy chọn này đã tồn tại.

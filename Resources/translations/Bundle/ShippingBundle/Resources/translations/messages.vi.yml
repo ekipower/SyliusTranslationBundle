@@ -1,0 +1,51 @@
+sylius:
+    form:
+        rule:
+            item_count_configuration:
+                count: sylius.form.rule.item_count_configuration.count   # FIXME
+                equal: sylius.form.rule.item_count_configuration.equal   # FIXME
+
+            type: sylius.form.rule.type   # FIXME
+
+        shipment:
+            state: Trạng thái
+            states:
+                checkout:   Thanh toán
+                pending:    Chưa xử lý
+                ready:      Sẵn sàng
+                shipped:    Đã giao
+                returned:   Đã trở lại
+                cancelled:  Đã hủy
+            tracking_code: Mã theo dõi
+
+        shipping_calculator:
+            flat_rate_configuration:
+                label: Giá tối thiểu cho mỗi lô hàng
+                amount: Số tiền
+
+            flexible_rate_configuration:
+                label: Tỉ giá
+                additional_item_cost: Thêm 1 mục giá
+                additional_item_limit: Giới hạn số lượng thêm vào
+                first_item_cost: Giá trị mục đầu tiên
+
+            per_item_rate_configuration:
+                label: Giá tối thiểu cho mỗi mục
+                amount: Số tiền
+
+            weight_rate_configuration:
+                label: Dựa trên trọng lượng
+                amount: Dựa trên giá trị đơn hàng
+                division: Dựa trên qui luật
+
+        shipping_category:
+            description: Mô tả
+            name: Tên
+
+        shipping_method:
+            calculator: Bộ tính toán
+            category: Danh mục
+            category_requirement: Danh mục yêu cầu
+            configuration: Cấu hình
+            enabled: sylius.form.shipping_method.enabled   # FIXME
+            name: Tên

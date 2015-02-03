@@ -1,0 +1,11 @@
+sylius:
+  form:
+    variant:
+        presentation: Trình bày
+    option:
+        name: Tên
+        presentation: Trình bày
+        values: Giá trị hiện tại
+    option_value:
+        add_value: Thêm giá trị
+        value: Giá trị

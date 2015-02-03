@@ -1,0 +1,6 @@
+sylius:
+    inventory_unit:
+        backorder: Đơn hàng đã đặt.
+        sell: Đơn hàng đã giao.
+        return: Đơn hàng bị trả lại.
+        transition_fail: Đơn hàng không thể thực hiện.
