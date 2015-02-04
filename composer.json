@@ -2,7 +2,7 @@
     "name": "ekipower/sylius-translation-bundle",
 	"type": "symfony-bundle",
     "description": "Bundle for translation of Sylius",
-	"keywords": ["sylius", "translation"]
+	"keywords": ["sylius", "translation", "ekipower"],
     "license": "MIT",
     "authors": [
 		{
